@@ -16,7 +16,7 @@
     "getCarsByStatus": {
       "main": "./lib/triggers/getCarsByStatus.js",
       "type": "polling",
-      "title": "Get Cars By Status With Generators",
+      "title": "Get Cars By Status",
       "fields": {
         "status": {
           "label": "Car Status",
