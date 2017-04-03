@@ -1,7 +1,7 @@
 {
     "name": "@elasticio/carstore-component-nodejs",
     "version": "0.0.1",
-    "description": "elastic.io component for the Petstore API",
+    "description": "elastic.io component for the Carstore API",
     "scripts": {
         "test": "exit 0"
     },
