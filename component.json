@@ -2,15 +2,16 @@
   "title": "Carstore API (Node.js)",
   "description": "elastic.io component for the Petstore API",
   "docsUrl": "https://github.com/baggam/baggam-motors-nodejs",
-    "credentials": {
-        "fields": {
-            "name": {
-                "label": "Your name",
-                "required": true,
-                "viewClass": "TextFieldView"
-            }
-        }
-    },
+  "credentials": {
+    "fields": {
+      "apiKey": {
+        "label": "API key",
+        "required": true,
+        "viewClass": "TextFieldWithNoteView",
+        "note": "Please use <b>elasticio</b> as API key. For more details see <a href='https://petstore.elastic.io/docs/' target='_blank'>Petstore API docs</a>."
+      }
+    }
+  },
   "triggers": {
     "getCarsByStatus": {
       "main": "./lib/triggers/getCarsByStatus.js",
