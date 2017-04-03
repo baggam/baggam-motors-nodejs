@@ -32,6 +32,7 @@
       "metadata": {
         "out": "./lib/schemas/getCarsByStatus.out.json"
       }
+    }
     },
   "actions": {
     "createCar": {
